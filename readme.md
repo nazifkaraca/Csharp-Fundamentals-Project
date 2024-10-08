@@ -1,104 +1,84 @@
-C# Fundamentals Project
-Proje haftasına hoş geldiniz! Bu projede sizlerden 3 aşamalı bir uygulama geliştirmeniz isteniyor. Uygulamayı çalıştıran kullanıcıya program seçeneklerini konsol üzerinden sunarak bir tanesini seçmesini isteyiniz.
+# C# Fundamentals Project
 
-Hangi programı çalıştırmak istersiniz - 3 farklı seçenek :
+## Proje Ã–zeti
 
-1 - Rastgele Sayı Bulma Oyunu
+Bu proje, C# programlama diliyle geliÅŸtirilen temel bir konsol uygulamasÄ±dÄ±r. Uygulama, kullanÄ±cÄ±ya Ã¼Ã§ farklÄ± program seÃ§eneÄŸi sunar:
 
-2 - Hesap Makinesi
+1. **Rastgele SayÄ± Bulma Oyunu**: BilgisayarÄ±n seÃ§tiÄŸi rastgele sayÄ±yÄ± tahmin etme oyunu.
+2. **Hesap Makinesi**: Toplama, Ã§Ä±karma, Ã§arpma ve bÃ¶lme iÅŸlemlerini yapabileceÄŸiniz bir hesap makinesi.
+3. **Ortalama Hesaplama**: Girilen Ã¼Ã§ ders notunun ortalamasÄ±nÄ± hesaplayarak harf notunu gÃ¶steren bir program.
 
-3 - Ortalama Hesaplama
+Her program, kullanÄ±cÄ± girdilerine dayalÄ± olarak Ã§alÄ±ÅŸÄ±r ve kullanÄ±cÄ±nÄ±n hata yapma durumlarÄ±nda gerekli bilgilendirmeleri yapar.
 
-Rastgele Sayı Bulma Oyunu
+<div align="center">
+<img src=https://github.com/user-attachments/assets/940d9be3-d734-4713-9b74-061fdc65aa73 >
+</div>
 
+## Kurulum ve Ã‡alÄ±ÅŸtÄ±rma
 
+1. **Gereksinimler**:
+   - .NET Core SDK yÃ¼klÃ¼ olmalÄ±dÄ±r.
+   - Bir C# IDE'si (Ã¶rneÄŸin, Visual Studio veya Rider) Ã¶nerilir.
 
+2. **Projenin Ã‡alÄ±ÅŸtÄ±rÄ±lmasÄ±**:
+   - Proje dosyasÄ±nÄ± bilgisayarÄ±nÄ±za klonlayÄ±n.
+   - Proje dizinine gidin.
+   - Terminal Ã¼zerinden ÅŸu komutu Ã§alÄ±ÅŸtÄ±rarak uygulamayÄ± baÅŸlatÄ±n:
+     
+     ```bash
+     dotnet run
+     ```
+   - MenÃ¼ ekranÄ± aÃ§Ä±lacak ve kullanÄ±cÄ± Ã¼Ã§ programdan birini seÃ§ebilecektir.
 
+## KullanÄ±lan Teknolojiler
 
+- C# Programlama Dili
+- .NET Core
+- Konsol UygulamasÄ±
 
+## Programlar
 
+### 1. Rastgele SayÄ± Bulma Oyunu
+- Bilgisayar 1 ile 100 arasÄ±nda rastgele bir sayÄ± seÃ§er.
+- KullanÄ±cÄ± bu sayÄ±yÄ± tahmin etmeye Ã§alÄ±ÅŸÄ±r.
+- Her tahminden sonra kullanÄ±cÄ±ya, sayÄ±nÄ±n daha yÃ¼ksek mi yoksa daha dÃ¼ÅŸÃ¼k mÃ¼ olduÄŸunu sÃ¶yleyen bir ipucu verilir.
+- KullanÄ±cÄ±nÄ±n 5 tahmin hakkÄ± vardÄ±r ve her tahminden sonra kalan haklarÄ± gÃ¶sterilir.
+- DoÄŸru tahmin durumunda oyun biter ve kullanÄ±cÄ± tebrik edilir, aksi halde doÄŸru sayÄ± gÃ¶sterilir ve oyun sona erer.
 
+### 2. Hesap Makinesi
+- KullanÄ±cÄ± iki sayÄ± girer ve yapmak istediÄŸi iÅŸlemi seÃ§er:
+ ```
+  Toplama (+)
+  Ã‡Ä±karma (-)
+  Ã‡arpma (*)
+  BÃ¶lme (/)
+ ```
+- SeÃ§ilen iÅŸleme gÃ¶re sonuÃ§ ekrana yazdÄ±rÄ±lÄ±r.
+- BÃ¶lme iÅŸlemi sÄ±rasÄ±nda sÄ±fÄ±ra bÃ¶lme hatasÄ± kontrol edilir ve kullanÄ±cÄ±ya uygun bir uyarÄ± verilir.
 
+### 3. Ortalama Hesaplama
+- KullanÄ±cÄ±dan Ã¼Ã§ farklÄ± ders notu girilmesi istenir.
+- Girilen notlarÄ±n geÃ§erliliÄŸi kontrol edilir (0-100 arasÄ±nda olmalÄ±dÄ±r).
+- GeÃ§erli notlar iÃ§in ortalama hesaplanÄ±r ve ekrana yazdÄ±rÄ±lÄ±r.
+- Ortalamaya karÅŸÄ±lÄ±k gelen harf notu gÃ¶sterilir:
+  ```
+  90-100: AA
+  85-89:  BA
+  80-84:  BB
+  75-79:  CB
+  70-74:  CC
+  65-69:  DC
+  60-64:  DD
+  55-59:  FD
+  0-54:   FF
+  ```
 
-Bilgisayar bir rastgele sayı belirlesin (örneğin 1 ile 100 arasında).
+## Proje Ä°sterleri
 
-Kullanıcıdan bu sayıyı tahmin etmesini isteyin.
+Bu proje, **Patika.dev** Full Stack Bootcamp mezuniyet kriterlerinden biri olan C# Fundamentals Project kapsamÄ±nda geliÅŸtirilmiÅŸtir. Proje gereksinimlerini ve deÄŸerlendirme formundaki isterleri karÅŸÄ±lamaktadÄ±r.
 
-Kullanıcı her tahmininde, bilgisayarın seçtiği sayıya yakınlığını kontrol edin ve ipucu verin (daha yüksek veya daha düşük).
-
-Kullanıcının 5 canı olsun (5 tahmin hakkı). Her tahmin sonrası kalan canını gösterin.
-
-Kullanıcı doğru tahminde bulunursa oyunu bitirin ve tebrik edin.
-
-Eğer 5 tahmin hakkı dolarsa, doğru sayıyı gösterin ve oyunu bitirin.
-
-
-
-
-
-
-
-
-Hesap Makinesi
-
-Kullanıcıya ilk sayıyı girmesini isteyin.
-
-Kullanıcıya ikinci sayıyı girmesini isteyin.
-
-Kullanıcıya yapmak istediği işlemi seçmesini isteyin:
-
-Toplama için +
-
-Çıkarma için -
-
-Çarpma için *
-
-Bölme için /
-
-Kullanıcının seçimine göre uygun işlemi gerçekleştirip sonucu ekrana yazdırın. Eğer bölme işlemi seçildiyse, sıfıra bölme hatası durumunu kontrol edin.
-
-Programı yazarken dikkat etmeniz gereken noktalar:
-
-Kullanıcı girdilerini doğru bir şekilde almak için Console.ReadLine() ve Convert.ToInt32() gibi metodları kullanın.
-
-İşlem seçiminde if-else veya switch-case yapısını kullanarak uygun işlemi gerçekleştirin.
-
-Bölme işlemi yapılırken sıfıra bölme hatasını kontrol edin ve kullanıcıya uygun bir mesaj gösterin.
-
-
-
-
-Ortalama Hesaplama
-
-Kullanıcıdan birinci ders notunu girmesini isteyin.
-
-Kullanıcıdan ikinci ders notunu girmesini isteyin.
-
-Kullanıcıdan üçüncü ders notunu girmesini isteyin.
-
-Girdiği notların ortalamasını hesaplayın ve ekrana yazdırın.
-
-Notların geçerli olup olmadığını kontrol edin (0-100 aralığında olmalıdır). Geçersiz bir not girildiğinde kullanıcıya hata mesajı verin ve programı sonlandırın.
-
-Ortalama notun harf karşılığını göstermek için aşağıdaki harf notu tablosunu kullanın:
-
-90-100: AA
-85-89:  BA
-80-84:  BB
-75-79:  CB
-70-74:  CC
-65-69:  DC
-60-64:  DD
-55-59:  FD
-0-54:   FF
-Programı yazarken dikkat etmeniz gereken noktalar:
-
-Kullanıcı girdilerini doğru bir şekilde almak için Console.ReadLine() ve Convert.ToDouble() gibi metodları kullanın.
-
-Notların geçerliliğini kontrol etmek için if yapısını kullanın.
-
-Ortalama hesaplamasını doğru bir şekilde yapmak için double türünde bir değişken kullanın.
-
-Harf notu tablosunu kullanarak kullanıcının aldığı ortalamaya karşılık gelen harf notunu belirleyin ve ekrana yazdırın.
-
-Başarılar dilerim!
+### DeÄŸerlendirme Kriterleri:
+- Kodun modÃ¼ler yapÄ±sÄ±.
+- Yorum satÄ±rlarÄ±nÄ±n kullanÄ±mÄ± ve aÃ§Ä±klayÄ±cÄ±lÄ±ÄŸÄ±.
+- KullanÄ±cÄ± hatalarÄ±yla baÅŸa Ã§Ä±kma becerisi (Ã¶rn. geÃ§ersiz giriÅŸlerin yÃ¶netimi).
+- Kodun genel performansÄ± ve iÅŸlevselliÄŸi.
