@@ -39,6 +39,11 @@ Her program, kullanıcı girdilerine dayalı olarak çalışır ve kullanıcın�
 ## Programlar
 
 ### 1. Rastgele Sayı Bulma Oyunu
+
+
+https://github.com/user-attachments/assets/9f6c28bd-14af-4901-b9a0-0e43c0e097bf
+
+
 - Bilgisayar 1 ile 100 arasında rastgele bir sayı seçer.
 - Kullanıcı bu sayıyı tahmin etmeye çalışır.
 - Her tahminden sonra kullanıcıya, sayının daha yüksek mi yoksa daha düşük mü olduğunu söyleyen bir ipucu verilir.
@@ -46,6 +51,11 @@ Her program, kullanıcı girdilerine dayalı olarak çalışır ve kullanıcın�
 - Doğru tahmin durumunda oyun biter ve kullanıcı tebrik edilir, aksi halde doğru sayı gösterilir ve oyun sona erer.
 
 ### 2. Hesap Makinesi
+
+
+https://github.com/user-attachments/assets/b5a6911a-0386-4537-ac0c-0223e4ea3c61
+
+
 - Kullanıcı iki sayı girer ve yapmak istediği işlemi seçer:
  ```
   Toplama (+)
@@ -57,6 +67,11 @@ Her program, kullanıcı girdilerine dayalı olarak çalışır ve kullanıcın�
 - Bölme işlemi sırasında sıfıra bölme hatası kontrol edilir ve kullanıcıya uygun bir uyarı verilir.
 
 ### 3. Ortalama Hesaplama
+
+
+https://github.com/user-attachments/assets/2fa5ae6a-6cdb-49f9-b3c0-ffc2de18ea1e
+
+
 - Kullanıcıdan üç farklı ders notu girilmesi istenir.
 - Girilen notların geçerliliği kontrol edilir (0-100 arasında olmalıdır).
 - Geçerli notlar için ortalama hesaplanır ve ekrana yazdırılır.
